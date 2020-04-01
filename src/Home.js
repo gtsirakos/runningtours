@@ -66,6 +66,7 @@ class Home extends Component {
           <div className="title">
             <div className="homeboxes">
                 <h2 className="bluetext">Supported Countries</h2>
+                <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
             </div>
             <div className="homeboxes">
                 <h2 className="bluetext">What we do</h2>
