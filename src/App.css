@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -26,6 +27,97 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.images {
+  width:100%;
+}
+
+.imagetext {
+    width: 600px;
+    height: 300px;
+    /* border: 3px solid white; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    margin-top: 20%;
+    z-index: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+.title { 
+  width: 100%;
+  height: 500px;
+  background-color: #e9e9e9;
+  /* font-size: 200px; */
+  border: 5spx solid black;
+  margin-top: -50px;
+  font-family: 'Pacifico', cursive;
+}
+
+.homeboxes {
+  width: 27%;
+  height: 350px;
+  background-color: #e9e9e9;
+  float: left;
+  box-shadow: 20px 20px 20px grey;
+  margin-left: 60px;
+  margin-top: 100px;
+  border: 2px solid #0054a6;
+  border-radius: 10%;
+}
+
+.bluetext{
+  color: #0054a6;
+}
+
+.whitetext{
+  color: white;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #0054a6;
+  position: fixed;
+  box-shadow: 20px 20px 20px grey;
+  z-index: 1;
+}
+
+.navbarboxes {
+  width: 7%;
+  /* height: 70px; */
+  background-color: #0060c0;
+  float: right;
+  color: white;
+  margin-right: 10px;
+  /* border-radius: 20%; */
+  /* margin-top: 20px; */
+  text-align: center;
+  padding: 25px;
+  font-size: 15px;
+  grid-row: main;
+}
+
+.logo {
+  width: 150px;
+  height: 60px;
+  float: left;
+  margin-left: 20px;
+}
+
+.divexample {
+  height:200px;
+  width:100%;
+}
+
+@media (max-width: 767px) {
+  .navbarboxes {
+    background-color: red;
+  }
+  
 }
 
 @keyframes App-logo-spin {
